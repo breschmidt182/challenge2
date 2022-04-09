@@ -1,0 +1,15 @@
+* :root {
+    display: flex;
+    flex-wrap: wrap;
+    font: serif;
+}
+
+header a {
+    font-size: 25px;
+    color: rgb(107, 96, 168);
+}
+
+.heading {
+    font-size: 35px;
+    color: rgb(108, 105, 136);
+}
