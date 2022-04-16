@@ -74,12 +74,69 @@ header nav ul li a:hover {
 
 .heading {
     font-size: 40x;
-    color: rgb(232, 231, 238);
+    color: rgb(10, 10, 10);
+    margin-right: 10px;
+    padding-left: 50px;
 }
 
+.portfolio {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /*about me*/
 
-/*My work section*/
+.portfolio p {
+    width: 80%;
+    border-left: 1px solid #000;
+    text-align: center;
+    padding-left: 75px;
+}
 
+/*My work section*/
+.my-work h2 {
+    padding-left: 100px;
+}
+
+.projects {
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    border-left: 1px solid #000;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+
+.star-project {
+    background-image: url("./assets/images/running-img.jpg");
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    border: 4px solid rgb(255, 8, 0);
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.star-project h4 {
+    font-size: 30px;
+    margin-top: 500px;
+}
+
+.other-projects {
+    border: 2px solid rgb(255,8,0);
+    object-fit: cover;
+    width: 50%;
+    min-height: 200px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.other-projects h4 {
+    font-size: 30px;
+    margin-top: 200px;
+}
 /*contact me section*/
