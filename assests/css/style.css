@@ -1,19 +1,85 @@
-* :root {
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
     display: flex;
     flex-wrap: wrap;
-    font: serif;
+    /* background-color: rgb(14, 19, 39); */
 }
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*nav bar*/
 
 header {
-    background-image: url();
+    padding: 5px 0px 10px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-header a {
-    font-size: 25px;
-    color: rgb(107, 96, 168);
+header h1 {
+    font-size: 30px;
+    margin: 0;
+    background-color: gray;
+}
+
+header nav{
+    padding-top: 15px;
+    margin-right: 70px;
+    float: right;
+    font-size: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+header nav ul li a {
+    color: azure;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    text-decoration: dashed;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(127, 255, 212, .75);
+}
+
+.hero {
+    background-image: url("https://www.highreshdwallpapers.com/wp-content/uploads/2012/02/Light-Streak-Wallpaper.jpg");
+    background-size: cover;
+    height: 210px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.hero h4 {
+    font-size: 15px;
+    color: aliceblue;
+    float: right;
+    margin-right: 40px;
+    margin-top: 180px;
+    padding: 5px 5px 5px 5px;
+    background-color: #000;
+
 }
 
 .heading {
-    font-size: 35px;
-    color: rgb(108, 105, 136);
+    font-size: 40x;
+    color: rgb(232, 231, 238);
 }
+
+
+/*about me*/
+
+/*My work section*/
+
+/*contact me section*/
