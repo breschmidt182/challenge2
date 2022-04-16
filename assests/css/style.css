@@ -87,6 +87,11 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
+.intro img {
+    border-radius: 15px;
+    float: left;
+}
+
 /*about me*/
 
 .portfolio p {
@@ -112,7 +117,7 @@ header nav ul li a:hover {
 }
 
 .star-project {
-    background-image: url("./assets/images/running-img.jpg");
+    background-image: url("assests\images\running-img.jpg");
     background-size: cover;
     min-height: 500px;
     width: 100%;
@@ -138,5 +143,30 @@ header nav ul li a:hover {
 .other-projects h4 {
     font-size: 30px;
     margin-top: 200px;
+}
+
+.profile span {
+    background-color: blanchedalmond;
+    border: 1px solid #000;
+}
+
+.surf {
+    background-image: url(".\assests\images\project-placeholder.jpg");
+}
+
+.led {
+    background-image: url(".\assests\images\project-placeholder.jpg");
+}
+
+.calc {
+    background-image: url("assests\images\project-placeholder.jpg");
+}
+
+.pastel {
+    background-image: url("assests\images\project-placeholder.jpg");
+}
+
+.other-projects img {
+    background-size: cover;
 }
 /*contact me section*/
