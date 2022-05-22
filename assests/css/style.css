@@ -12,7 +12,7 @@
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
+    background-color: rgb(167, 161, 165);
 }
 
 /*nav bar*/
@@ -70,13 +70,13 @@ header nav ul li a:hover {
     margin-right: 40px;
     margin-top: 180px;
     padding: 5px 5px 5px 5px;
-    background-color: #000;
+    background-color: rgb(43, 112, 186);
 
 }
 
 .heading {
     font-size: 40px;
-    color: rgb(246, 9, 9);
+    color: #000;
     margin-right: 10px;
     padding-left: 50px;
 }
@@ -106,20 +106,20 @@ header nav ul li a:hover {
 
 /*about me*/
 .portfolio h2 {
-    color: rgb(246, 9, 9);
+    color: rgb(58, 3, 29);
 }
 .portfolio p {
     width: 80%;
     border-left: 1px solid #000;
     text-align: center;
     padding-left: 75px;
-    color: rgb(0, 129, 64);
+    color: rgb(92, 102, 109);
 }
 
 /*My work section*/
 .my-work h2 {
     padding-left: 100px;
-    color: rgb(246, 9, 9);
+    color: rgb(58, 3, 29);
 
 }
 
@@ -150,11 +150,11 @@ header nav ul li a:hover {
 .star-project h4 {
     font-size: 30px;
     margin-top: 500px;
-    color: rgb(0, 129, 64);
+    color: rgb(185, 191, 161);
 }
 
 .star-project span {
-    color: rgb(0, 129, 64);
+    color: rgb(185, 191, 161);
 }
 
 .other-projects {
@@ -169,11 +169,11 @@ header nav ul li a:hover {
 .other-projects h4 {
     font-size: 30px;
     margin-top: 200px;
-    color: rgb(0, 129, 64);
+    color: rgb(185, 191, 161);
 }
 
 .other-projects span {
-    color: rgb(0, 129, 64);
+    color: rgb(185, 191, 161);
 }
 
 .profile span {
@@ -215,6 +215,7 @@ header nav ul li a:hover {
     margin-right: 500px;
     text-align: right;
     padding-bottom: 10px;
+    color: rgb(58, 3, 29);
 }
 
 .contact nav {
@@ -236,6 +237,10 @@ header nav ul li a:hover {
 
 footer {
     padding: 45px;
+}
+
+.contact-me {
+    color: rgb(11, 58, 1);
 }
 
 .star-project:hover {
@@ -267,7 +272,7 @@ footer {
         text-align: center;
     }
 
-    .contact nav {
+    .contact ul li{
         text-align: center;
         width: 100%;
     }
