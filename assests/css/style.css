@@ -77,10 +77,11 @@ header nav ul li a:hover {
     color: rgb(58, 3, 29);
     margin-right: 10px;
     padding-left: 50px;
+    border-right: #000;
 }
 
 .content {
-    font-size: 24px;
+    font-size: 30px;
     width: 100%;
     list-style-type: none;
     margin: 10px;
@@ -97,12 +98,9 @@ header nav ul li a:hover {
 }
 
 .picOfMe {
-    border-radius: 200px;
-    margin-left: 20px;
+    border-radius: 150%;
     margin-right: 1300px;
-    margin-bottom: 100px;
-    width:15em;
-    height: 15em;
+    margin-bottom: 10px;
     border: 4px solid rgb(163, 163, 167);
 }
 
@@ -135,12 +133,14 @@ header nav ul li a:hover {
     background-size: cover;
     min-height: 500px;
     border: 4px solid rgb(163, 163, 167);
-    justify-content: center;
     margin: 50px;
+    margin-left: 220px;
 }
 
 .star-project li {
-    width: 70%;
+    display: inline-block;
+    width: 75%;
+    margin: auto;
     list-style-type: none;
     margin-bottom: 20px;
 }
@@ -152,18 +152,17 @@ header nav ul li a:hover {
     color: rgb(185, 191, 161);
 }
 
-.star-project span {
-    color: rgb(185, 191, 161);
-}
-
 .other-projects {
     object-fit: cover;
     width: 75%;
     min-height: 200px;
     justify-content: center;
     margin: 10px;
-    margin-left: 150px;
+    margin-left: 230px;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
@@ -186,39 +185,55 @@ header nav ul li a:hover {
     background-image: url("../images/whats-for-dinner-img.jpg");
     margin-bottom: 10px;
     border: 2px solid;
+    width: 45%;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 10px
 }
 
 #dinnerProj:hover {
     opacity: .75;
-    color: grey
+    color: rgb(202, 90, 90)
 }
 
 #led {
     background-image: url("../images/project-placeholder.jpg");
     margin-bottom: 10px;
     border: 2px solid;
+    width: 45%;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 10px
 }
 
 #led:hover {
     opacity: .75;
-    color: grey
+    color: rgb(202, 90, 90)
 }
 
 #calc {
     background-image: url("../images/project-placeholder.jpg");
     margin-bottom: 10px;
     border: 2px solid;
+    width: 45%;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 10px
 }
 
 #calc:hover {
     opacity: .75;
-    color: grey
+    color: rgb(202, 90, 90)
 }
 
 #pastel {
     background-image: url("../images/project-placeholder.jpg");
     margin-bottom: 10px;
     border: 2px solid;
+    width: 45%;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 10px
 }
 
 #pastel:hover {
@@ -230,6 +245,10 @@ header nav ul li a:hover {
     background-image: url("../images/project-placeholder.jpg");
     margin-bottom: 10px;
     border: 2px solid;
+    width: 45%;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 10px
 }
 
 #new-project:hover {
@@ -244,10 +263,9 @@ header nav ul li a:hover {
 /*contact me section*/
 .contact {
    display: flex;
+   flex-direction: row;
    flex-wrap: wrap;
    align-items: flex-start;
-   justify-content: center;
-   padding: 50px;
 }
 
 
@@ -255,16 +273,22 @@ header nav ul li a:hover {
     list-style-type: none;
     display: inline;
     font-size: 20px;
-    margin-left: 0px;
-    justify-content: space-around;
+    margin-top: 25px;
+    margin-right: 20px;
+    color: rgb(49, 22, 26);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 #contact-header {
     color: rgb(58, 3, 29);
     font-size: 30px;
-    margin-right: 500px;
+    margin-right: 150px;
     text-align: right;
     padding-bottom: 10px;
+    float: left;
 }
 
 footer {
