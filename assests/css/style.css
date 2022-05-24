@@ -77,15 +77,14 @@ header nav ul li a:hover {
     color: rgb(58, 3, 29);
     margin-right: 10px;
     padding-left: 50px;
-    border-right: #000;
 }
 
 .content {
     font-size: 30px;
-    width: 100%;
+    width: 85%;
     list-style-type: none;
     margin: 10px;
-
+    border-left: 1px solid #000;
 }
 
 .portfolio {
@@ -123,13 +122,13 @@ header nav ul li a:hover {
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    border-left: 1px solid rgb(163, 163, 167);
+    border-left: 1px solid #000;
     justify-content: space-around;
-    padding-left: 50px;
+    padding-left: 10%;
 }
 
 .star-project {
-    background-image: url("../images/running-img.jpg");
+    background-image: url("../images/whats-for-dinner-img.jpg");
     background-size: cover;
     min-height: 500px;
     border: 4px solid rgb(163, 163, 167);
@@ -181,8 +180,9 @@ header nav ul li a:hover {
     border: 1px solid #000;
 }
 
-#dinnerProj {
-    background-image: url("../images/whats-for-dinner-img.jpg");
+#runBuddy {
+    background-image: url("../images/running-img.jpg");
+    background-position: center;
     margin-bottom: 10px;
     border: 2px solid;
     width: 45%;
@@ -273,19 +273,21 @@ header nav ul li a:hover {
     list-style-type: none;
     display: inline;
     font-size: 20px;
+    text-decoration: underline;
     margin-top: 25px;
-    margin-right: 20px;
+    margin-right: 50%;
     color: rgb(49, 22, 26);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 40px;
+    border-left: 1px solid #000;
 }
 
 #contact-header {
     color: rgb(58, 3, 29);
     font-size: 30px;
-    margin-right: 150px;
+    margin-right: 60px;
     text-align: right;
     padding-bottom: 10px;
     float: left;

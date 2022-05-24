@@ -18,7 +18,11 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+# Description
+A convenient way for a developer looking to get hired to show off some of their work. It allows employers to see how knowledgeable the person is.
+
 # Screenshot
+![](./assests/images/Bre's%20Portfolio.gif)
 
 # Links
 https://github.com/breschmidt182/my-portfolio
