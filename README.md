@@ -27,3 +27,4 @@ https://github.com/breschmidt182/my-portfolio
 # img cred
 https://unsplash.com/@ventiviews - running img
 https://www.wallpaperflare.com/technology-monitor-alpha-coders-binary-crt-monitor-retro-wave-wallpaper-cuiue - project placeholder img
+https://www.thespruceeats.com/thmb/SSuAbvFy9bL-w850_t2oZ25svZ8=/2133x1200/smart/filters:no_upscale()/GettyImages-553331621-9f5ec08a8c6b48b98469da710ac950fa.jpg - what's for dinner img
