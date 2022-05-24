@@ -1,13 +1,10 @@
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
 
 :root {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: rgb(14, 19, 39); */
 }
 
 body {
@@ -19,7 +16,7 @@ body {
 
 header {
     padding: 5px 0px 10px;
-    background-color: grey;
+    background-color: rgb(167, 161, 165);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -28,7 +25,8 @@ header {
 header h1 {
     font-size: 30px;
     margin: 0;
-    background-color: gray;
+    background-color: rgb(167, 161, 165);
+    color: rgb(58, 3, 29);
 }
 
 header nav{
@@ -76,17 +74,21 @@ header nav ul li a:hover {
 
 .heading {
     font-size: 40px;
-    color: #000;
+    color: rgb(58, 3, 29);
     margin-right: 10px;
     padding-left: 50px;
 }
 
 .content {
     font-size: 24px;
+    width: 100%;
+    list-style-type: none;
+    margin: 10px;
 
 }
 
 .portfolio {
+    width: 100%;
     padding-bottom: 20px;
     display: flex;
     align-items: flex-start;
@@ -105,9 +107,7 @@ header nav ul li a:hover {
 }
 
 /*about me*/
-.portfolio h2 {
-    color: rgb(58, 3, 29);
-}
+
 .portfolio p {
     width: 80%;
     border-left: 1px solid #000;
@@ -119,15 +119,12 @@ header nav ul li a:hover {
 /*My work section*/
 .my-work h2 {
     padding-left: 100px;
-    color: rgb(58, 3, 29);
-
 }
 
 .projects {
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
     border-left: 1px solid rgb(163, 163, 167);
     justify-content: space-around;
     padding-left: 50px;
@@ -137,15 +134,17 @@ header nav ul li a:hover {
     background-image: url("../images/running-img.jpg");
     background-size: cover;
     min-height: 500px;
-    width: 100%;
     border: 4px solid rgb(163, 163, 167);
-    margin-bottom: 20px;
     justify-content: center;
+    margin: 50px;
 }
 
 .star-project li {
-    width: 100%;
+    width: 70%;
+    list-style-type: none;
+    margin-bottom: 20px;
 }
+
 
 .star-project h4 {
     font-size: 30px;
@@ -158,13 +157,15 @@ header nav ul li a:hover {
 }
 
 .other-projects {
-    border: 2px solid;
     object-fit: cover;
-    width: 50%;
+    width: 75%;
     min-height: 200px;
-    margin-bottom: 20px;
     justify-content: center;
+    margin: 10px;
+    margin-left: 150px;
+    list-style-type: none;
 }
+
 
 .other-projects h4 {
     font-size: 30px;
@@ -181,27 +182,66 @@ header nav ul li a:hover {
     border: 1px solid #000;
 }
 
-.dinnerProj {
-    background-image: url("../images/project-placeholder.jpg");
+#dinnerProj {
+    background-image: url("../images/whats-for-dinner-img.jpg");
+    margin-bottom: 10px;
+    border: 2px solid;
 }
 
-.led {
-    background-image: url("../images/project-placeholder.jpg");
+#dinnerProj:hover {
+    opacity: .75;
+    color: grey
 }
 
-.calc {
+#led {
     background-image: url("../images/project-placeholder.jpg");
+    margin-bottom: 10px;
+    border: 2px solid;
 }
 
-.pastel {
+#led:hover {
+    opacity: .75;
+    color: grey
+}
+
+#calc {
     background-image: url("../images/project-placeholder.jpg");
+    margin-bottom: 10px;
+    border: 2px solid;
+}
+
+#calc:hover {
+    opacity: .75;
+    color: grey
+}
+
+#pastel {
+    background-image: url("../images/project-placeholder.jpg");
+    margin-bottom: 10px;
+    border: 2px solid;
+}
+
+#pastel:hover {
+    opacity: .75;
+    color: rgb(202, 90, 90)
+}
+
+#new-project {
+    background-image: url("../images/project-placeholder.jpg");
+    margin-bottom: 10px;
+    border: 2px solid;
+}
+
+#new-project:hover {
+    opacity: .75;
+    color: rgb(202, 90, 90)
 }
 
 .other-projects img {
     background-size: cover;
 }
-/*contact me section*/
 
+/*contact me section*/
 .contact {
    display: flex;
    flex-wrap: wrap;
@@ -210,44 +250,29 @@ header nav ul li a:hover {
    padding: 50px;
 }
 
-.contact h2 {
-    font-size: 30px;
-    margin-right: 500px;
-    text-align: right;
-    padding-bottom: 10px;
-    color: rgb(58, 3, 29);
-}
 
-.contact nav {
-    font-size: 30px;
-    border-left: 2px solid #000;
-    padding: 30px 0px 30px 0px;
-}
-
-.contact nav ul li a {
-    display: inline-block;
+#contact-info {
+    list-style-type: none;
+    display: inline;
     font-size: 20px;
     margin-left: 0px;
     justify-content: space-around;
 }
 
-.contact nav ul {
-    list-style-type: none;
+#contact-header {
+    color: rgb(58, 3, 29);
+    font-size: 30px;
+    margin-right: 500px;
+    text-align: right;
+    padding-bottom: 10px;
 }
 
 footer {
     padding: 45px;
 }
 
-.contact-me {
-    color: rgb(11, 58, 1);
-}
 
 .star-project:hover {
-    opacity: .75;
-}
-
-.other-projects:hover {
     opacity: .75;
 }
 
