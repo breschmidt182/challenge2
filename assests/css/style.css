@@ -151,6 +151,10 @@ header nav ul li a:hover {
     color: rgb(185, 191, 161);
 }
 
+.star-project span {
+    color: rgb(185, 191, 161);
+}
+
 .other-projects {
     object-fit: cover;
     width: 75%;
